@@ -1,7 +1,5 @@
-# sTalk
+# Simple-Talk
+Author: Gray Keng & Vincent Gong
 
-Just a simple terminal to terminal chat session.
-
-Made by Gray and Vincent
-
-SFU CMPT 300 Assignment 2
+How to use?
+s-talk [local port number] [remote hostname] [remote port number]
