@@ -1,7 +1,7 @@
-all: build
+all: main
 
-build:
-	gcc -o main simulation.c list.o main.c
+main: 
+	gcc -std=gnu99 -g threads.c manager.c list.c -o s-talk -lpthread
 
 clean:
-	rm -f main
+	rm -f s-talk *.o
